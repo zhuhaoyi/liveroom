@@ -1,0 +1,271 @@
+﻿html, body {
+    background-color: #0f0400;
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑","黑体";
+}
+
+.section {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.title img {
+    width: 100%;
+}
+
+.cheng > img {
+    width: 53.33333%;
+    display: block;
+    margin: 0 auto;
+}
+
+.ceping, .ceping_bd, .ceping_ft, .lilun, .zzzs, .footer {
+    width: 85.33333%;
+    display: block;
+    margin: 0 auto;
+}
+
+.ceping_bd {
+    background: url(../images/hundunImgs/ceping_bd.png) repeat-y;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    padding: 0 0.4rem 0.2rem;
+}
+
+.ceping_ft {
+    position: relative;
+}
+
+    .ceping_ft > img {
+        width: 100%;
+    }
+
+    .ceping_ft .h1 {
+        text-align: center;
+        font-size: 0.40rem;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        color: #410;
+        padding-top: 0.15rem;
+    }
+
+    .ceping_ft .btn {
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        bottom: 22%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+        .ceping_ft .btn img {
+            width: 100%;
+        }
+
+.input {
+    border: 0;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    height: 22%;
+    width: 56%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 22%;
+    top: 28%;
+    text-align: center;
+    font-size: 0.25rem;
+    line-height: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tables {
+    width: 100%;
+    height: 3.06rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+    .tables dl {
+        background: url(../images/hundunImgs/list_bg.png) repeat-y center center;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        line-height: 1rem;
+        height: 1rem;
+        border-bottom: 2px solid transparent;
+        margin: 0;
+        background-clip: padding-box;
+    }
+
+        .tables dl dd {
+            float: left;
+            width: 62%;
+            padding: 0;
+            margin: 0;
+            margin-right: 1%;
+            font-size: 0.25rem;
+            text-align: left;
+        }
+
+            .tables dl dd:first-child {
+                width: 15%;
+                font-size: 0.32rem;
+            }
+
+            .tables dl dd:nth-child(2n) {
+                width: 20%;
+                font-size: 0.32rem;
+            }
+
+            .tables dl dd:last-child {
+                line-height: 0.3rem;
+                padding-top: 0.1rem;
+                height: 0.9rem;
+            }
+
+                .tables dl dd:last-child p {
+                    height: 0.3rem;
+                    padding-top: 0.1rem;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+.layermend:before, .layermend:after {
+    background-color: #fff !important;
+}
+
+.layermcont {
+    text-align: left !important;
+}
+
+.lilun {
+    margin-top: -11%;
+    z-index: 1;
+    position: relative;
+}
+
+.lilun-hd {
+    *zoom: 1;
+    width: 100%;
+}
+
+    .lilun-hd:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .lilun-hd li {
+        height: 100%;
+        float: left;
+        width: 25%;
+        cursor: pointer;
+        list-style: none;
+    }
+
+        .lilun-hd li img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+.hide {
+    display: none;
+}
+
+.lilun-bd {
+    border: 2px solid #947730;
+    margin-top: -6.7%;
+    padding: 1rem 7% 0.5rem 7%;
+    -wekit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    .lilun-bd > .lilun-item {
+        color: #947730;
+        font-size: 0.32rem;
+    }
+
+    .lilun-bd .title {
+        color: #faf17d;
+        font-size: 0.45rem;
+        text-align: center;
+        margin-bottom: 0.4rem;
+    }
+
+    .lilun-bd p {
+        text-indent: 2em;
+        margin-bottom: 0.2rem;
+        line-height: 1.5;
+    }
+
+.zzzs-hd {
+    width: 37.5%;
+    margin: 0 auto 0.4rem auto;
+}
+
+    .zzzs-hd > img, .zzzs-bd > img {
+        width: 100%;
+    }
+
+.footer {
+    color: #947730;
+    padding: 0.4rem 0 1rem 0;
+    margin-top: 0.6rem;
+    border-top: 1px solid #312107;
+    text-align: center;
+    font-size: 0.32rem;
+    line-height: 1.5;
+}
+
+    .footer a {
+        color: #947730;
+        text-decoration: none;
+        margin: 0 0.1rem;
+    }
+
+.weixinDiv {
+    position: fixed;
+    height: 1.5rem;
+    background-color: rgba(66,66,66,0.92);
+    width: 100%;
+    bottom: 0;
+    padding: 0.24rem;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+    .weixinDiv img {
+        float: left;
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .weixinDiv .downtext {
+        width: 87%;
+        margin-left: 1.28rem;
+        line-height: .5rem;
+        font-size: 0.4rem;
+    }

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{http_host} ^(www.)?yancq.com$ [NC,OR]
+RewriteCond %{http_host} ^yancq.com$ [NC]
+RewriteRule ^(.*)$ http://www.yancq.com/$1 [R=301,L]

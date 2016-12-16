@@ -1,0 +1,23 @@
+
+/* css 重置 */
+body { font-family:"微软雅黑";}
+div,ul,li,img,h1,h2,h3,h4,h5,input,dl,dt,dd,textarea,p{margin:0; padding:0; list-style:none; }
+img{ border:0; }
+a{ text-decoration:none; color:#333; }
+a:hover{ color:#1974A1; }
+/* 本例子css */
+.m-slide{ position: relative; width:988px; height: 425px; border:1px solid #e2e2e2; background: #fff; padding:15px 10px 30px 20px; clear:both; }
+.m-slide .bottom-shadow{ position: absolute; bottom: -3px; left: 0; width: 100%; height: 1px; overflow: hidden; border-top: 1px solid #e0e0e0; background: #e6e6e6; border-bottom: 1px solid #ececec }
+.m-slide .img { float: left; position: relative }
+.m-slide .img li, .m-slide .img a, .m-slide .img img { display: block; width: 679px; height: 400px }
+.m-slide .img li { display: none; position: absolute; left: 0; top: 0 }
+.m-slide .img .first { display: block }
+.m-slide .tab { float: right; width:298px; height:470px; }
+.m-slide .tab li { float:left; height:96px; margin-bottom:30px; width: 149px; cursor:pointer;}
+.m-slide .tab .first { border-top: 0 }
+.m-slide .tab a { text-decoration: none; display: block; position: relative; width: 190px; height: 96px; border-left: 3px solid #fff }
+.m-slide .tab a b { position: absolute; left: 0; top: 20px; width: 4px; height: 11px; overflow: hidden }
+.m-slide .tab a span { position: absolute; overflow: hidden ;cursor:pointer;}
+.m-slide .tab a .title { left: 17px; top: 6px; height: 20px; line-height: 20px; font-size: 14px; font-weight: bold; color: #666 }
+.m-slide .tab a .des { left: 18px; top: 26px; height: 16px; line-height: 16px; color: #999 }
+.m-slide .tab .first a { height: 50px }.m-slide .tab .on a { border-left: 3px solid #41a1f2 }

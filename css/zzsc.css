@@ -1,0 +1,8 @@
+@charset "utf-8";
+#main_promo{height:426px; width:1920px; margin-left:-960px; position:relative;  top:0;  left:50%; overflow:hidden; z-index:0; }
+.promoWD{width:1000px; margin:0 auto; position:relative; }
+.slide{display:block; float:left;  width:1920px;}
+#dots{height:13px; position:absolute; bottom:13px; left:429px; z-index:99;}
+#dots li{ width:23px; height:13px; float:left; }
+#dots li a{ width:10px; display:block; height:10px; background-color:#fff; border:1px solid #FFFFFF; border-radius:10px;}
+#dots li.act a{background-color:#F90;}

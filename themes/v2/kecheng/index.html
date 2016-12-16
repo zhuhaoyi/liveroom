@@ -1,0 +1,253 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/sj.js"></script>
+<style>
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+	body{margin:0;
+		 padding:0;
+		 font-family:"微软雅黑";
+	}
+		 
+	/*.bgi_content{width:600px;
+				 height:400px;
+				 background: url(img/class_bgi.png) no-repeat;
+				 margin:0 auto;}
+				 
+	.class_plan{text-align:center;
+	   font-size:22px;
+	   font-weight:blod;
+	   margin-bottom:0;
+	   color:#fff;}
+	   
+	.name h1,h2{width:100px;
+				display:block;
+				padding:0;
+				margin:0;
+				font-size:18px;
+				color:#fff;
+				font-weight:normal;
+				margin-left:400px;
+				-ms-margin-left:400px;}
+				
+	table{width:590px;
+		  margin:0 auto;}
+	
+	table .one{display:inline-block;
+			   width:110px;
+			   margin-right:40px;
+			   -ms-margin-left:40px;
+			   color:#fff;
+			   }
+			   
+	table .two{display:inline-block;
+			   width:40px;
+			   margin-right:10px;
+			   -ms-margin-right:10px;}
+			   
+	table .three{display:inline-block;
+				 width:100px;
+				 margin-right:10px;
+				 -ms-margin-right:10px;}
+				 
+	table .three span{display:block;
+					  height:1px;
+					  border-bottom:2px yellow solid;}
+				 
+	table .four{display:inline-block;
+				width:40px;
+				margin-right:70px;
+				-ms-margin-right:70px;
+				color:#000;
+				font-weight:400;}
+			   
+	table .five{display:inline-block;
+			   width:60px;
+			   position:relative;
+			   color:#fff;
+			   font-weight:400;}	
+			   
+	table .five img{position:absolute;
+					 display:block;}
+			   
+	table tr{display:block;
+			 margin-bottom:5px;}	 */
+	.tab{
+
+		width:720px;
+		height: 520px;
+		border: 4px solid #8e66d8;
+		background: #fff;
+		margin-left:6px;
+		margin-top: 10px;
+		position: absolute;
+	}
+
+	.tet_1{
+ 		text-align: center;
+		font-size: 22px;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	.tet_2{
+		margin-left: 75px;
+		font-size: 16px;
+	}
+	table{
+		width: 600px;
+		height: 400px;
+		border: 1px solid #7f7f7f;
+		margin: 0 auto;
+		border-right:none ;
+		border-top:none ;
+		border-bottom :none;
+		position: relative;
+		z-index: 10;
+	}
+	table tr td{
+		border: 1px solid #7f7f7f;
+		border-left:none ;
+		background: #fff;
+	}
+	.td_1{
+		width: 171px;
+		height: 37px;
+		background: #c6b3eb;
+		text-align: center;
+		line-height: 37px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.td_2{
+		width: 171px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 15px;
+		border-top:none ;
+	}
+.img_1{
+	margin-left: 36px;
+}
+.img_2{
+	width: 720px;
+ 	 position: relative;
+	bottom: 117px;
+	z-index: 1;
+}
+.img_3{
+	margin-left: 67px;
+}
+	.date_1{
+		margin-left: 5px;
+		border-top:none ;
+
+	}
+	.hiden_img{
+		position: absolute;
+		top:-14px;
+		right: -21px;
+
+	}
+	.hiden_img:hover{
+		cursor: pointer;
+	}
+	.name_1{
+		border-top:none ;
+	}
+
+</style>
+</head>
+
+<body>
+
+<div class="tab">
+
+		<h4 class="tet_1">课&nbsp;程&nbsp;安&nbsp;排</h4>
+	<table cellspacing="0" cellpadding="0">
+		<p class="tet_2">主播:&nbsp;璐&nbsp;璐</p>
+		<tr>
+			<td class="td_1">课程主题</td>
+			<td class="td_1">时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;间</td>
+			<td class="td_1">讲课老师</td>
+		</tr>
+		<tr class="tr_color1">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;新闻早班车</td>
+			<td class="date_1"><img src="img/hmzbs-time.png" class="img_1"/>&nbsp;&nbsp;09:00&nbsp;-&nbsp;09:30</td>
+			<td class="name_1"><img src="img/hmzbs-renwu.png" class="img_3" />&nbsp;&nbsp;施政</td>
+		</tr>
+		<tr class="tr_color2">
+			<td class="td_2">名师解盘</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;09:30&nbsp;-&nbsp;10:30</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;潘俊</td>
+		</tr>
+		<tr class="tr_color3">
+			<td class="td_2">名师解盘</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;10:30&nbsp;-&nbsp;11:30</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;任天行</td>
+		</tr>
+		<tr class="tr_color4">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;午间加油站</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;11:30&nbsp;-&nbsp;13:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;老王</td>
+		</tr>
+		<tr class="tr_color5">
+			<td class="td_2">名师解盘</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;13:00&nbsp;-&nbsp;14:00</td>
+			<td class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;施政</td>
+		</tr>
+		<tr class="tr_color6">
+			<td class="td_2">名师解盘</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;14:00&nbsp;-&nbsp;15:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;刘克熊</td>
+		</tr>
+		<tr class="tr_color7">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;复盘股事汇</td>
+			<td class="date_1"> <img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;15:00&nbsp;-&nbsp;16:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;任天行</td>
+		</tr>
+		<tr class="tr_color8">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;投资大家说</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;16:00&nbsp;-&nbsp;17:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;老王</td>
+		</tr>
+		<tr class="tr_color9">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;热点全揭秘</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;17:00&nbsp;-&nbsp;18:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;李牧</td>
+		</tr>
+		<tr class="tr_color10">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;晚间情报站</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;18:00&nbsp;-&nbsp;19:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;潘俊</td>
+		</tr>
+		<tr class="tr_color11">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;板块大作战</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;19:00&nbsp;-&nbsp;20:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;刘克熊</td>
+		</tr>
+		<tr class="tr_color12">
+			<td class="td_2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每天一点投资学</td>
+			<td class="date_1"><img src="img/hmzbs-time.png"class="img_1"/>&nbsp;&nbsp;20:00&nbsp;-&nbsp;21:00</td>
+			<td  class="name_1"><img src="img/hmzbs-renwu.png"class="img_3"/>&nbsp;&nbsp;李牧</td>
+		</tr>
+
+
+	</table>
+	
+	<img src="img/hmzbs-tuxing.png" class="img_2"/>
+
+
+</div>
+	<script>
+
+
+
+	</script>
+</body>
+</html>

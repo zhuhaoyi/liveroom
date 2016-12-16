@@ -1,0 +1,7 @@
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^yancq.com [NC,OR] 
+RewriteCond %{HTTP_HOST} ^www.yancq.com [NC] 
+RewriteRule ^(.*)$ http://www.tuohao.com.cn/$1 [L,R=301]
+
+
+

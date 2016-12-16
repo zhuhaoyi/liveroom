@@ -1,0 +1,116 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background-color:#ffa044;}
+.ft_14{ font-size:14px; color:#fff; font-weight:bold;}
+.ft_14h{font-size:14px; color:#fdff00; font-weight:bold; line-height:24px;}
+.ft_12h{font-size:12px; color:#fdff00; font-weight:bold; line-height:24px;}
+
+.con{width:100%; height:198px; margin:0px auto}
+.con1{background:url(../images/gifniuImgs/ng1.jpg) center top no-repeat}
+.con2{background:url(../images/gifniuImgs/ng2.jpg) center top no-repeat}
+.con3{background:url(../images/gifniuImgs/ng3.jpg) center top no-repeat}
+
+.con3 .box{width:367px; padding-top:55px; margin:0px auto; color:#fff; font-weight:bold; text-align:center; font-size:14px; line-height:35px;}
+
+.nr{ width:945px; margin:0px auto}
+.nr1{height:160px; background:url(../images/gifniuImgs/nr1.jpg) no-repeat;}
+.nr2{height:262px; background:url(../images/gifniuImgs/nr2.jpg) no-repeat; padding-top:8px;}
+.nr2 .box{margin:0px 54px 0px 51px; background:url(../images/gifniuImgs/nr2tp.jpg) left top no-repeat; padding:40px 0px 55px 590px;}
+.nr2 p{text-align:center}
+
+.nr3{height:163px; background:url(../images/gifniuImgs/nr3.jpg) no-repeat;}
+.nr4{height:303px; background:url(../images/gifniuImgs/nr4.jpg) no-repeat;}
+.nr4 .box{padding-left:640px; padding-top:35px; margin-right:50px;}
+.nr4 h1{ text-align:center; line-height:35px;}
+
+.nr5{height:180px; background:url(../images/gifniuImgs/nr5.jpg) no-repeat;}
+.nr6{height:89px; background:url(../images/gifniuImgs/nr6.jpg) no-repeat;}
+.nr7{height:390px;background-color:#e2282a; }
+
+.nr7 table{ margin-left:143px; background-color:#9e1c1d; width:662px; height:370px; text-align:center;}
+.nr7 td{border-bottom:1px solid #e2282a; height:46px; line-height:46px;border-right:1px solid #e2282a}
+
+
+.nr8{background:url(../images/gifniuImgs/nr8.jpg) no-repeat; background-color:#e2282a; background-position:0px 15px; text-align:center; padding-top:175px; border-bottom:1px solid #9e1c1d; padding-bottom:25px}
+
+.nr9{ height:75px; background-color:#e2282a; text-align:center; padding-top:20px; line-height:22px; font-size:12px; color:#fff;}
+
+/*右侧固定滚动漂浮--需要添加的样式*/
+/*.right_adrift{position:fixed;bottom:auto;top:150px;right:0;_padding-top:150px;padding-right:10px; width:156px;font-size: 12px;color: #000}
+*html,*html body{background-attachment:fixed;}
+*html .right_adrift{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}*/
+/*右侧固定滚动漂浮--需要添加的样式*/
+/*.right_adrift{
+	position: absolute;
+	top:50%;
+	right: 6px;
+	background: #f00;
+    width: 10%;
+    height: 290px;
+    border-radius: 5px; }
+.right_adrift img{ 
+	position: absolute;
+	width: 90%;
+    top: 25px;
+    left: 6%;}
+.right_adrift p{
+	position: absolute;
+	top: 70%;
+	left: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	
+}
+.right_adrift span{
+	position: absolute;
+	top: 85%;
+	left: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	
+}*/
+
+/*右侧固定滚动漂浮--需要添加的样式*/
+.right_adrift{position:fixed;bottom:auto;top:150px;right:0;_padding-top:150px;padding-right:10px; width:156px;font-size: 12px;color: #000}
+*html,*html body{background-attachment:fixed;}
+*html .right_adrift{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+/*右侧固定滚动漂浮--需要添加的样式*/
+.right_adrift ul{
+	position: absolute;
+	width: 100%;
+	height: 290px; 
+	top:50%;
+	right:5%; 
+	background: #f00;
+	border-radius: 5px; 
+}
+.right_adrift li{
+	list-style: none;
+	
+}
+.right_adrift img{ 
+	position: absolute;
+	width: 80%;
+    top: 25px;
+    left: 10%;}
+
+.right_adrift p{
+	position: absolute;
+	top: 70%;
+	left: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	
+}
+.right_adrift span{
+	position: absolute;
+	top: 85%;
+	left: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	
+}	
